@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Note App</title>
+  <!-- <link rel="stylesheet" href="./style/style.css"> -->
+</head>
+
+<body>
+  <!-- Header -->
+  <app-bar></app-bar>
+
+  <!-- Form -->
+  <note-form></note-form>
+
+  <!-- Daftar Catatan -->
+  <div id="note-list-local" class="note-list"></div>
+  <hr />
+  <h2 class="title">Catatan Aktif</h2>
+  <div id="note-list-api" class="note-list"></div>
+  <hr />
+  <h2 class="title">Catatan Arsip</h2>
+  <div id="archive-list-api" class="note-list"></div>
+  <!-- loading -->
+  <loading-indicator></loading-indicator>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
